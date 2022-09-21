@@ -6,15 +6,16 @@
 
 .game-board {
     width: 80%;
-    height: 500px;
-    border: 1px solid #333;
+    height: 345px;
+    border: 2px solid #333;
     margin: 0 auto;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
+    background-image: url(IMG/sky.png);
 }
-
+ 
 .barril {
-    width: 70px;
+    width: 60px;
     position: absolute;
     bottom: 0;
     animation: barril-animation 2s infinite linear;
@@ -52,6 +53,10 @@
     }
 
     50%{
+        bottom: 100px;
+    }
+
+    60%{
         bottom: 100px;
     }
 
